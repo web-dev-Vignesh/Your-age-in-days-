@@ -1,0 +1,27 @@
+.container-1{
+    margin: 30px auto;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 90%;
+    background-color:aqua;
+}
+@media (min-width:600px) {
+    .container-1{
+
+        width:75%;
+    }
+    
+}
+.flex-box-container-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid black;
+}
+.flex-box-container-1 div{
+    padding: 10px;
+    border: 1px solid black;
+    display:flex ;
+}
